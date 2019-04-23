@@ -34,3 +34,7 @@ Route::group(['prefix'=>'api/v1'],function (){
 Auth::routes();
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

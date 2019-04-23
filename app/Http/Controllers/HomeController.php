@@ -28,10 +28,10 @@ class HomeController extends Controller
     
     public function index()
     {
-        $test = Test::create([
+        /*$test = Test::create([
             "name" => uniqid()
         ]);
-        return $test;
+        return $test;*/
         //return Test::find([1,2]); // 返回两条记录
         //return view('home');
     }
